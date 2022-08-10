@@ -15,17 +15,22 @@
 
 //GETELEMENTID//
 //console.log(document.getElementById('header-title'))
-var headerTitle = document.getElementById('header-title');
-var header = document.getElementById('main-header');
+//var headerTitle = document.getElementById('header-title');
+//var header = document.getElementById('main-header');
 //console.log(headerTitle);
 //headerTitle.textContent = 'ITEM';
 //headerTitle.textContent = 'Goodbye';
 //console.log(headerTitle.innerText);
 //headerTitle.innerHTML = '<h3>Hello</h3>'
-header.style.borderBottom = 'solid 3px #000'
+//header.style.borderBottom = 'solid 3px #000'
 
-var addItems = document.all[14];
-console.log(addItems.innerText);
-addItems.textContent = 'ADD ITEMS';
-addItems.style.color = 'green';
-console.log(addItems.innerText);
+//var addItems = document.all[14];
+//console.log(addItems.innerText);
+//addItems.textContent = 'ADD ITEMS';
+//addItems.style.color = 'green';
+//console.log(addItems.innerText);
+
+//GETELEMENTSBYCLASSNAME//
+var items = document.getElementsByClassName('list-group-item');
+console.log(items);
+console.log(items[1]);
